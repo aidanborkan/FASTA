@@ -1,8 +1,8 @@
 # FASTA
-FASTA Query for Proteomics
+#FASTA Query for Proteomics
 
-This script is designed for Rstudio and encapsulates a function to pull data from FASTA files from UniProt database.
-A resulting dataframe will include select data based on specifications.
+#This script is designed for Rstudio and encapsulates a function to pull data from FASTA files from UniProt database.
+#A resulting dataframe will include select data based on specifications.
 
 # Define a function that processes a FASTA file and finds shared protein entries
 process_fasta_file <- function(fasta_file_path, comparison_df, output_file_name) {
