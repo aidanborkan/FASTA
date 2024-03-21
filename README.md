@@ -12,7 +12,7 @@ process_fasta_file <- function(fasta_file_path, comparison_df, output_file_name)
     stop("The comparison data frame is missing or does not have an 'id' column - rename applicable column.")
   }
   
-  # Read the FASTA file
+  ## Read the FASTA file
   fasta_data <- readAAStringSet(fasta_file_path)
   
   # Extract the headers
