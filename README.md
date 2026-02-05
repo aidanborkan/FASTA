@@ -80,4 +80,4 @@ Below are example queries that can be entered directly into the app:
 - **Copper-binding proteins**  
   `keyword: "Copper-binding" AND reviewed: true.`
 
-The application uses UniProt’s REST **stream endpoint** (`uniprotkb/stream`) to retrieve FASTA records directly from UniProt, ensuring results are current and reproducible.
+The application uses UniProt’s REST **stream endpoint** (`uniprotkb/stream`) to retrieve FASTA records directly from UniProt, ensuring results are up to date and reproducible.
