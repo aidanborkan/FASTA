@@ -1,5 +1,6 @@
 ibrary(biomaRt)
 library(Biostrings)
+library(httr2)
 #to fetch Bioconductor-standards-approved annotated database information
 library(AnnotationDbi)
 library(UniProt.ws)
